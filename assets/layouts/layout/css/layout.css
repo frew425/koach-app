@@ -428,8 +428,8 @@ Page Header
       .page-header.navbar .search-form.search-form-expanded .input-group .input-group-btn .btn.submit {
         margin-left: 0; } }
 
-/*** 
-Horizontal Menu 
+/***
+Horizontal Menu
 ***/
 .page-header.navbar {
   /* Header container */
@@ -671,10 +671,7 @@ Horizontal Menu
 
 @media (max-width: 580px) {
   /* Page header */
-  .page-header.navbar .top-menu .navbar-nav > li.dropdown-user .dropdown-toggle .username.username-hide-on-mobile {
-    display: none; }
-  .page-header.navbar .top-menu .navbar-nav > li.dropdown-language .dropdown-toggle .langname {
-    display: none; } }
+ }
 
 @media (max-width: 480px) {
   /* 480px */
@@ -1472,7 +1469,7 @@ Page content
   font-size: 28px;
   letter-spacing: -1px;
   display: block;
-  color: #666;
+  color: #2C3E50;
   margin: 0px 0px 15px 0px;
   font-weight: 300;
   /* subtitle */ }
@@ -1480,15 +1477,15 @@ Page content
     font-size: 14px;
     letter-spacing: 0px;
     font-weight: 300;
-    color: #888; }
+    color: #94A0B2; }
   .page-content-white .page-title,
   .page-container-bg-solid .page-title {
-    color: #666;
+    color: #2C3E50;
     margin-bottom: 20px;
     margin-top: 20px; }
     .page-content-white .page-title small,
     .page-container-bg-solid .page-title small {
-      color: #666; }
+      color: #2C3E50; }
   .page-content-white .page-title {
     margin: 25px 0;
     font-size: 24px; }
@@ -1520,7 +1517,7 @@ Page content
         margin-right: 1px; }
       .page-bar .page-breadcrumb > li > a,
       .page-bar .page-breadcrumb > li > span {
-        color: #888;
+        color: #94A0B2;
         font-size: 14px;
         text-shadow: none; }
       .page-bar .page-breadcrumb > li > i {
@@ -1559,7 +1556,7 @@ Page content
       .page-content-white .page-bar .page-breadcrumb > li > span,
       .page-container-bg-solid .page-bar .page-breadcrumb > li > a,
       .page-container-bg-solid .page-bar .page-breadcrumb > li > span {
-        color: #888; }
+        color: #94A0B2; }
       .page-content-white .page-bar .page-breadcrumb > li > i,
       .page-container-bg-solid .page-bar .page-breadcrumb > li > i {
         color: #aaa; }
@@ -2537,8 +2534,8 @@ Page Quick Sidebar
     top: 120px;
     margin-top: 0; } }
 
-/***  
-Page Loading       
+/***
+Page Loading
 ***/
 .page-on-load {
   background: #fefefe; }
