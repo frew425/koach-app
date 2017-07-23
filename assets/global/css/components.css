@@ -6654,9 +6654,9 @@ Custom color buttons
 @media (max-width: 768px) {
   /* 768px */
   .input-lg {
-    width: 250px !important; }
+    width: 100% !important; }
   .input-xlg {
-    width: 300px !important; } }
+    width: 100% !important; } }
 
 /* Circle Inputs */
 .input-circle {
