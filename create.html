@@ -284,6 +284,10 @@
                                 </li>
                                 <li>
                                     <span>Financial Plan</span>
+                                    <i class="fa fa-circle"></i>
+                                </li>
+                                <li>
+                                    <span>Create</span>
                                 </li>
                             </ul>
                         </div>
@@ -300,16 +304,16 @@
                                 <div class="portlet light bordered">
                                   <form action="#">
                                     <div class="form-group">
-                                        <label >Default Datetimepicker</label>
-                                            <div class="">
-                                                <input type="text" size="16" class="form-control form-control-inline input-medium date-picker">
-                                            </div>
+                                        <label>Select the Date of Transaction</label>
+                                        <div class="input-icon right">
+                                          <i class="icon-calendar"></i>
+                                        <input class="form-control form-control-inline date-picker" size="16" type="text" value="">
+                                        </div>
                                     </div>
                                     <div class="form-group">
                                       <label>Sub-Category</label>
-                                      <div class="input-group input-group-lg">
-                                        <span class="input-group-addon" id="sizing-addon1"><i class="icon-grid"></i></span>
-                                        <select class="form-control input-lg">
+                                      <div class="">
+                                        <select class="form-control">
                                             <option>Option 1</option>
                                             <option>Option 2</option>
                                             <option>Option 3</option>
@@ -319,22 +323,89 @@
                                     </div>
                                     <div class="form-group">
                                       <label>Add a Description of Purchase</label>
-                                      <div class="input-group input-group-lg">
-                                          <span class="input-group-addon" id="sizing-addon1"><i class="icon-note"></i></span>
-                                          <input type="text" class="form-control" placeholder="Description" aria-describedby="sizing-addon1"> </div>
+                                      <div class="input-icon right">
+                                        <i class="icon-note"></i>
+                                        <input type="text" class="form-control" placeholder="Description">
+                                      </div>
                                     </div>
                                     <div class="form-group">
                                       <label>Add The Total Amount</label>
-                                      <div class="input-group input-group-lg">
-                                          <span class="input-group-addon" id="sizing-addon1"><i class="icon-wallet"></i></span>
-                                          <input type="number" inputmode="numeric" pattern="[0-9]*" class="form-control" placeholder="Amount" aria-describedby="sizing-addon1"> </div>
+                                      <div class="input-icon right">
+                                        <i class="icon-wallet"></i>
+                                        <input type="number" inputmode="numeric" pattern="[0-9]*" class="form-control" placeholder="Amount">
+                                      </div>
                                     </div>
-
-                                    <button type="submit" class="btn grey">Submit</button>
+                                    <div class="form-actions">
+                                        <button type="submit" class="btn green btn-circle">Save</button>
+                                        <button type="submit" class="btn green btn-circle">Save & Add Another</button>
+                                        <button type="button" class="btn green btn-circle btn-outline">Cancel</button>
+                                    </div>
                                   </form>
                                 </div>
                               </div>
-                                <!-- END PORTLET-->
+                              <!-- END PORTLET-->
+                              <!-- BEGIN PORTLET-->
+                              <div class="col-lg-6 col-xs-12 col-sm-12">
+                                <div class="mt-element-ribbon bg-grey-steel">
+                                  <div class="ribbon ribbon-color-success uppercase">Quick Tip</div>
+                                  <h4 class="ribbon-content">Have you checked all your accounts before making this purchase? Does it fall into one of you budget categories? Sometimes all it takes is a few moments to ask if I really need this purchase.</h4>
+                                  </div>
+                              </div>
+                              <div class="col-lg-6 col-xs-12 col-sm-12">
+                                <div class="dashboard-stat2 light bordered">
+                                    <div class="display">
+                                        <div class="number">
+                                            <h3 class="font-green-sharp">
+                                                <span data-counter="counterup" data-value="3,100">0</span>
+                                                <small class="font-green-sharp">$</small>
+                                            </h3>
+                                            <small>TOTAL SPEND THIS MONTH</small>
+                                        </div>
+                                        <div class="icon">
+                                            <i class="icon-pie-chart"></i>
+                                        </div>
+                                    </div>
+                                    <div class="progress-info">
+                                        <div class="progress">
+                                            <span style="width: 76%;" class="progress-bar progress-bar-success green-sharp">
+                                                <span class="sr-only">85% progress</span>
+                                            </span>
+                                        </div>
+                                        <div class="status">
+                                            <div class="status-title"> used </div>
+                                            <div class="status-number"> 85% </div>
+                                        </div>
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-6 col-xs-12 col-sm-12">
+                                <div class="dashboard-stat2 light bordered">
+                                    <div class="display">
+                                        <div class="number">
+                                            <h3 class="font-red-haze">
+                                                <span data-counter="counterup" data-value="700">0</span>
+                                                <small class="font-red-haze">$</small>
+                                            </h3>
+                                            <small>THIS MONTH'S BALANCE</small>
+                                        </div>
+                                        <div class="icon">
+                                            <i class="icon-clock"></i>
+                                        </div>
+                                    </div>
+                                    <div class="progress-info">
+                                        <div class="progress">
+                                            <span style="width: 15%;" class="progress-bar progress-bar-success red-haze">
+                                                <span class="sr-only">15% left</span>
+                                            </span>
+                                        </div>
+                                        <div class="status">
+                                            <div class="status-title"> available </div>
+                                            <div class="status-number"> 15% </div>
+                                        </div>
+                                    </div>
+                                </div>
+                              </div>
+                              <!-- END PORTLET-->
                             </div>
                             <!-- END ROW-->
                           </div>
